@@ -1,7 +1,9 @@
-import App from "next/app";
+import App from "../components/App";
 
 export default function Home() {
   return (
-    <App/>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <App/>
+    </main>
   );
 }
