@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+
+h1{
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%,-50%);
+}
